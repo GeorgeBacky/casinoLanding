@@ -1,0 +1,46 @@
+{
+    "data":[
+        {
+            "title":"Book Of Dead",
+            "provider":"tade",
+            "jackpots":15700,
+            "images":"images/16x9.png"
+        },
+        {
+            "title":"Book Of Cleopatra",
+            "provider":"tade",
+            "jackpots":10700,
+            "images":"images/16x9.png"
+        },        
+        {
+            "title":"Book Of Ra",
+            "provider":"tade",
+            "jackpots":10000,
+            "images":"images/16x9.png"
+        },        
+        {
+            "title":"Tome Of Madness",
+            "provider":"tade",
+            "jackpots":10000,
+            "images":"images/16x9.png"
+        },
+        {
+            "title":"Buffalo King",
+            "provider":"tade",
+            "jackpots":10000,
+            "images":"images/16x9.png"
+        },
+        {
+            "title":"Lil Devil",
+            "provider":"tade",
+            "jackpots":10000,
+            "images":"images/16x9.png"
+        },
+        {
+            "title":"Hotline",
+            "provider":"tade",
+            "jackpots":10000,
+            "images":"images/16x9.png"
+        }
+    ]
+} 
