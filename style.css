@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 270px;
+    grid-template-areas: "a b c jackpot-area";
+}
+
+/*  JACKPOT RIGHT SIDE AREA GRID AND MORE */
+
+.grid-area-jackpots {
+    grid-area: jackpot-area;
+    background-color: #263238;
+    border-radius: 4px;
+    margin: 8px 0 8px 8px;
+}
+
+
+.jackpot-item {
+    display: flex;
+    padding: 13px;
+    cursor: pointer;
+    max-width: 100%;
+    width: 100%;
+    outline: none;
+}
+
+.jackpot-inside-items {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+
+}
+
+.jackpot-sums {
+    /* width: 270px; */
+    height: 230px;
+    margin: 8px 0 8px 8px;
+    background-color: #263238;
+    display: grid;
+    grid-template-rows: 120px 50px 30px;
+}
+
+.bordered-box {
+    background-color: #263238;
+}
+/*  END HERE RIGHT SECTION  */
+
+/* IMAGES Resolution change */
+
+.images {
+    width: 52.5px;
+    height: 50px;
+}
+
+.jackpot-img {
+    width: 200px;
+    height: 100px;
+    
+}
+
+.jackpot-image-pos {
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.games-autoscroller {
+    max-height: 250px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #171c26;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: #fff;
+}
+::scrollbar {
+    display: none;
+}
+
