@@ -5,8 +5,8 @@ body {
     color: #fff;
     background-color: aquamarine;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 270px;
-    grid-template-areas: "a b c jackpot-area";
+    grid-template-columns: 270px 1fr 1fr 1fr;
+    grid-template-areas: "jackpot-area a b c";
 }
 
 /*  JACKPOT RIGHT SIDE AREA GRID AND MORE */
@@ -34,6 +34,12 @@ body {
 
 }
 
+.jackpot-inside-categories {
+    display: grid;
+    grid-template-columns: 45px 1fr;
+
+}
+
 .jackpot-sums {
     /* width: 270px; */
     height: 230px;
@@ -55,6 +61,11 @@ body {
     height: 50px;
 }
 
+.images-categories {
+    width: 40px;
+    height: 30px;
+}
+
 .jackpot-img {
     width: 200px;
     height: 100px;
@@ -64,6 +75,12 @@ body {
 .jackpot-image-pos {
     padding: 10px;
     font-size: 22px;
+    font-weight: bold;
+}
+
+.jackpot-categories-pos {
+    padding: 10px;
+    font-size: 14px;
     font-weight: bold;
 }
 

@@ -1,6 +1,9 @@
 <?php 
     $string = file_get_contents("mock.json");
     $json_a = json_decode($string, true);
+
+    $string_categories = file_get_contents("categories.json");
+    $json_categories = json_decode($string_categories, true);
 ?>
 <html lang="en">
 <head>
@@ -59,8 +62,22 @@
                 }
             ?>
     </div>
-    <div class="jackpot-image-pos">
-    <p>Categories</p>        
+    <div class="jackpot-categories-pos">
+    <p>Categories</p>
+    <?php      
+            foreach ($json_categories['data'] as $categories) {
+                echo '<div class="bordered-box">
+                            <div class="jackpot-item">
+                                <div class="jackpot-inside-categories">
+                                    <img class="images-categories" src='.$categories['images'].'>
+                                <div>
+                                    <div>'.$categories['title'].' '.$categories['value'].'&euro;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>';
+            }
+            ?>        
     </div>
 
 </div>
