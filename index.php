@@ -1,9 +1,24 @@
 <?php 
+    // Display Errors
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+    // End here
+
+    // Opening mock.json file for jackpots 
     $string = file_get_contents("mock.json");
     $json_a = json_decode($string, true);
 
+    // Opening categories.json file for categories
     $string_categories = file_get_contents("categories.json");
     $json_categories = json_decode($string_categories, true);
+
+    // Getting Sum for jackpots
+    $sum = 0;
+    foreach($json_a['data'] as $key=>$value){
+        $value = $value['jackpots'];
+        $sum+= $value;
+    }
 ?>
 <html lang="en">
 <head>
@@ -28,7 +43,7 @@
         <div class="jackpot-sums">
             <div class="jackpot-image-pos"><img class="jackpot-img" src="images/16x9.png"></div>
             <div class="jackpot-image-pos">Total Jackpots</div>
-            <div class="jackpot-image-pos">50000&euro;</div>
+            <div class="jackpot-image-pos"><?php echo $sum ?>&euro;</div>
         </div>
         <div class="games-autoscroller js-loop" id="autoscrolling">
             <?php      
