@@ -3,44 +3,38 @@
         {
             "title":"Book Of Dead",
             "provider":"tade",
-            "jackpots":15700,
-            "images":"images/16x9.png"
+            "jackpots":15708,
+            "images":"images/slots/book-of-dead.png"
         },
         {
             "title":"Book Of Cleopatra",
             "provider":"tade",
-            "jackpots":10700,
-            "images":"images/16x9.png"
+            "jackpots":11708,
+            "images":"images/slots/Book-Of-Cleopatra.jpg"
         },        
         {
             "title":"Book Of Ra",
             "provider":"tade",
-            "jackpots":10000,
-            "images":"images/16x9.png"
+            "jackpots":12508,
+            "images":"images/slots/book-of-ra.jpg"
         },        
         {
             "title":"Tome Of Madness",
             "provider":"tade",
-            "jackpots":10000,
-            "images":"images/16x9.png"
+            "jackpots":11100,
+            "images":"images/slots/tome-of-madness.png"
         },
         {
             "title":"Buffalo King",
             "provider":"tade",
-            "jackpots":10000,
-            "images":"images/16x9.png"
-        },
-        {
-            "title":"Lil Devil",
-            "provider":"tade",
-            "jackpots":10000,
-            "images":"images/16x9.png"
+            "jackpots":10500,
+            "images":"images/slots/buffalo-king.jpg"
         },
         {
             "title":"Hotline",
             "provider":"tade",
-            "jackpots":10000,
-            "images":"images/16x9.png"
+            "jackpots":10790,
+            "images":"images/slots/Hotline.jpg"
         }
     ]
 } 
