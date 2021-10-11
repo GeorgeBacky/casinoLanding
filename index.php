@@ -33,32 +33,32 @@
         <div class="games-autoscroller js-loop" id="autoscrolling">
             <?php      
             foreach ($json_a['data'] as $value) {
-                echo '<div class="bordered-box">
-                            <div class="jackpot-item">
-                                <div class="jackpot-inside-items">
-                                    <img class="images" src='.$value['images'].'>
+                echo "<div class='bordered-box'>
+                            <div class='jackpot-item'>
+                                <div class='jackpot-inside-items'>
+                                    <img class='images' src='$value[images]'>
                                 <div>
-                                    <div>'.$value['title'].'</div>
-                                    <div>'.$value['jackpots'].'&euro;</div>
+                                    <div>$value[title]</div>
+                                    <div>$value[jackpots]&euro;</div>
                                 </div>
                             </div>
                         </div>
-                    </div>';
+                    </div>";
             }
             ?>
             <?php      
                 foreach ($json_a['data'] as $value) {
-                    echo '<div class="bordered-box is-clone">
-                                <div class="jackpot-item">
-                                    <div class="jackpot-inside-items">
-                                        <img class="images" src='.$value['images'].'>
+                    echo "<div class='bordered-box is-clone'>
+                                <div class='jackpot-item'>
+                                    <div class='jackpot-inside-items'>
+                                        <img class='images' src='$value[images]'>
                                     <div>
-                                        <div>'.$value['title'].'</div>
-                                        <div>'.$value['jackpots'].'&euro;</div>
+                                        <div>$value[title]</div>
+                                        <div>$value[jackpots]&euro;</div>
                                     </div>
                                 </div>
                             </div>
-                        </div>';
+                        </div>";
                 }
             ?>
     </div>
@@ -66,16 +66,16 @@
     <p>Categories</p>
     <?php      
             foreach ($json_categories['data'] as $categories) {
-                echo '<div class="bordered-box">
-                            <div class="jackpot-item">
-                                <div class="jackpot-inside-categories">
-                                    <img class="images-categories" src='.$categories['images'].'>
+                echo "<div class='bordered-box'>
+                            <div class='jackpot-item'>
+                                <div class='jackpot-inside-categories'>
+                                    <img class='images-categories' src='$categories[images]'>
                                 <div>
-                                    <div>'.$categories['title'].' '.$categories['value'].'&euro;</div>
+                                    <div> $categories[title] ($categories[value]) </div>
                                 </div>
                             </div>
                         </div>
-                    </div>';
+                    </div>";
             }
             ?>        
     </div>
