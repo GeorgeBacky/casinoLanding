@@ -41,7 +41,11 @@
 ?>
     <div class='grid-area-jackpots'>
         <div class="jackpot-sums">
-            <div class="jackpot-image-pos"><img class="jackpot-img" src="images/16x9.png"></div>
+            <div class="jackpot-image-pos">
+                <div class="sign">
+                    <span class="fast-flicker">J</span>ack<span class="flicker">p</span>ots
+                </div>
+            </div>   <!-- <img class="jackpot-img" src="images/16x9.png"> -->
             <div class="jackpot-image-pos">Total Jackpots</div>
             <div class="jackpot-image-pos"><?php echo $sum ?>&euro;</div>
         </div>
