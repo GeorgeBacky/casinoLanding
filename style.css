@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 body {
     font-family: 'Open Sans', sans-serif;
     color: #fff;
@@ -109,7 +109,7 @@ body {
     height: 50%;
     background-image: radial-gradient( ellipse 50% 35% at 50% 50%, #005a5e, transparent );
     transform: translate(-8%, 70%);
-    font-family: "Clip";
+    font-family: "Poiret One" , cursive;
     text-transform: uppercase;
     font-size: 45px;
     color: #ffe6ff;
