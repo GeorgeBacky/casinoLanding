@@ -5,8 +5,8 @@ body {
     color: #fff;
     background-color: aquamarine;
     display: grid;
-    grid-template-columns: 270px 1fr 1fr 1fr;
-    grid-template-areas: "jackpot-area a b c";
+    grid-template-columns: 270px 1fr;
+    grid-template-areas: "jackpot-area slider";
 }
 
 /*  JACKPOT RIGHT SIDE AREA GRID AND MORE */
@@ -290,3 +290,10 @@ body {
       opacity: 1;
     }
   }
+
+
+/* Swiper  */
+.swiper {
+  width: 1500px;
+  height: 350px;
+}

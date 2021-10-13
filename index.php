@@ -98,9 +98,37 @@
             }
             ?>        
     </div>
-
 </div>
+<!-- Section Slider -->
+<div class="grid-area-slider">
+    <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"  data-swiper-autoplay="2000"><img src="/images/slider/desktop-promotion.jpg"/></div>
+    <div class="swiper-slide"  data-swiper-autoplay="2000"><img src="/images/slider/desktop-promotion.jpg"/></div>
+    <div class="swiper-slide"  data-swiper-autoplay="2000"><img src="/images/slider/desktop-promotion.jpg"/></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+</div>
+
 </body>
+<!-- Swiper CDN -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- Swiper End Here! -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="autoscroll.js"></script>
+<script src="/js/autoscroll.js"></script>
+<script src="/js/swiper.js"></script>
 </html>
